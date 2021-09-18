@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  helm-hlf-ca:
+  - apiVersion: v2
+    appVersion: 1.4.3
+    created: "2021-09-18T05:44:54.89097475Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - postgres-database
+      version: x.x.x
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      tags:
+      - mysql-database
+      version: x.x.x
+    description: Hyperledger Fabric Certificate Authority chart (these charts are
+      created by AID:Tech and are currently not directly associated with the Hyperledger
+      project)
+    digest: 98b78ba707281b42ea9d5d3c46b412e9533d34f403277bcf71f413b3aae62b7f
+    home: http://hyperledger-fabric-ca.readthedocs.io
+    icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
+    keywords:
+    - blockchain
+    - hyperledger
+    - fabric
+    name: helm-hlf-ca
+    sources:
+    - https://github.com/its-software-services-devops/helm-hlf-ca.git
+    urls:
+    - https://its-software-services-devops.github.io/helm-hlf-ca/helm-hlf-ca-1.1.0.tgz
+    version: 1.1.0
+generated: "2021-09-18T05:44:54.886066706Z"
