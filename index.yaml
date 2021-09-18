@@ -3,7 +3,7 @@ entries:
   helm-hlf-ca:
   - apiVersion: v2
     appVersion: 1.4.3
-    created: "2021-09-18T05:44:54.89097475Z"
+    created: "2021-09-18T06:44:52.25495442Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -20,7 +20,7 @@ entries:
     description: Hyperledger Fabric Certificate Authority chart (these charts are
       created by AID:Tech and are currently not directly associated with the Hyperledger
       project)
-    digest: 98b78ba707281b42ea9d5d3c46b412e9533d34f403277bcf71f413b3aae62b7f
+    digest: 60b1137ed71c285eddbecc813e2f1be5af1668d4a4d91c141fd42d9ed6cbb61d
     home: http://hyperledger-fabric-ca.readthedocs.io
     icon: https://www.hyperledger.org/wp-content/uploads/2018/04/fabric-logo.png
     keywords:
@@ -33,4 +33,4 @@ entries:
     urls:
     - https://its-software-services-devops.github.io/helm-hlf-ca/helm-hlf-ca-1.1.0.tgz
     version: 1.1.0
-generated: "2021-09-18T05:44:54.886066706Z"
+generated: "2021-09-18T06:44:52.250363754Z"
