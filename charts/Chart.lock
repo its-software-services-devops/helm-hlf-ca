@@ -1,9 +1,0 @@
-dependencies:
-- name: postgresql
-  repository: https://charts.helm.sh/stable
-  version: 8.6.4
-- name: mysql
-  repository: https://charts.helm.sh/stable
-  version: 1.6.9
-digest: sha256:399625a5a03c646b612349b400364196d8b2323c37e83c5ecfe0e6b3e8501e04
-generated: "2021-09-18T12:35:23.6203276+07:00"
